@@ -12,3 +12,16 @@ git tag 0.xx
 git push origin master --tags
 
 
+GIT->REPOSITORY->BRANCHES-->>
+	BRANCHE develop ->> CHECKOUT (si no existe crear)
+
+GIT->ADD (files or directory)
+GIT->COMMIT (files or directory)
+GIT->REPOSITORY->BRANCHES-->>
+	BRANCHE master ->> CHECKOUT
+GIT->REPOSITORY->merge Branches-->>
+	Branches to merge (marcar develop)
+GIT->REPOSITORY->TAG
+	Crear Tag en branch master
+GIT->REPOSITORY->PUSH
+	Marcar Push Tags
