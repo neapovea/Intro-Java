@@ -26,3 +26,19 @@ Introducción a Java
    - BRANCHE master ->> CHECKOUT
 - GIT->REPOSITORY->merge Branches-->>
    - Branches to merge (marcar develop)
+
+
+ 
+#secuencia desde gitflow desde IDE
+https://dazzet.co/tutorial-de-git-flow/
+- instalar paquete git-flow en el sistema operativo
+- Instalar git flow integration
+- iniciar repo con la opción del menu (init repo), con las opciones por defecto
+- realizar add, commit 
+- realizar tag
+- hacer git flow feature publish
+- hacer git flow feature finish
+- git branch -a (para ver las ramas)
+- git push origin :feature/<feature>
+- git branch -a (para ver las ramas y ver que ha desaparecido la rama <feature>)
+
