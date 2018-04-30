@@ -26,6 +26,24 @@ Introducción a Java
    - BRANCHE master ->> CHECKOUT
 - GIT->REPOSITORY->merge Branches-->>
    - Branches to merge (marcar develop)
+   
+   
+#Sentencias con GitFlow desde IDE.
+- GitFlow: Init Repo
+- GitFlow: Start Feature
+- add files and commits
+- GitFlow: Publish feature
+- GitFlow: Finish feature
+- Terminal: git push origin develop
+
+   
+- GitFlow: Start Release
+- GitFlow: Publish release
+- GitFlow: Finish release, aquí se indica el tag.
+- Terminal: git push --tags
+- Terminal: git push origin develop
+- Terminal: git push origin master
+
 
 
  
