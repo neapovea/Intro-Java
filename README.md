@@ -27,36 +27,30 @@ Introducción a Java
 - GIT->REPOSITORY->merge Branches-->>
    - Branches to merge (marcar develop)
    
-   
 #Sentencias con GitFlow desde IDE.
+https://dazzet.co/tutorial-de-git-flow/
+- Instalar paquete git-flow en el sistema operativo
+- Configurar GitFlow en IDE marcando en el apartado Release
+	Push on finish release (-p)
+	Use custom tag commit message --> %name%
+
+---Pasos para realizar una Feature, se repetin tantas veces como necesitemos 	
 - GitFlow: Init Repo
 - GitFlow: Start Feature
-- add files and commits
+- IDE: Agregar ficheros (Ctrl+Alt+A) y hacer commits
 - GitFlow: Publish feature
 - GitFlow: Finish feature
-- Terminal: git push origin develop
 
-   
+---Pasos para realizar una Release, que publicará los cambios. 
 - GitFlow: Start Release
 - GitFlow: Publish release
-- GitFlow: Finish release, aquí se indica el tag.
-- Terminal: git push --tags
-- Terminal: git push origin develop
-- Terminal: git push origin master
+- GitFlow: Finish release
+    Aquí se indica/revisa el tag, según la configuración puesta sera el mismo que el nombre de la Feature.
 
 
 
- 
-#secuencia desde gitflow desde IDE
-https://dazzet.co/tutorial-de-git-flow/
-- instalar paquete git-flow en el sistema operativo
-- Instalar git flow integration
-- iniciar repo con la opción del menu (init repo), con las opciones por defecto
-- realizar add, commit 
-- realizar tag
-- hacer git flow feature publish
-- hacer git flow feature finish
-- git branch -a (para ver las ramas)
-- git push origin :feature/<feature>
-- git branch -a (para ver las ramas y ver que ha desaparecido la rama <feature>)
+#comandos para revisión
+- git branch -a 
+    (para ver las ramas, si se ejecuta antes y después del release se veran las ramas creadas y como las borra al subir los cambios)
+- git status
 
